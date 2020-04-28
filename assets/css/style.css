@@ -1,13 +1,20 @@
 /*  Headers */
 
 h1 {
-    Font-Family: 'Slabo 13px', Serif;
-    Font-Size: 48px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-Size: 48px;
 }
 
 /* Text */
 
 .copy {
-    Font-Family: 'Lato', Sans-Serif;
-    Font-Size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-Size: 16px;
+}
+
+/* Images */
+
+.headshot {
+    align: center;
 }
