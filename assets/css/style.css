@@ -16,5 +16,210 @@ h1 {
 /* Images */
 
 
-/* Colors */
+/* 
+Colors 
 
+primary: #72B01D
+black: #0d0a0b
+white: #F3EFF5
+
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-Size: 16px;
+}
+
+h1, h2, h3 {
+    font-weight: 900;
+} 
+
+h4, h5, h6 {
+    font-weight:700;
+}
+
+/* Buttons */
+
+
+/* Primary Button */
+.btn-primary {
+    background: #72B01D !important;
+    border-color: #72B01D !important;
+    border-radius: 0;
+    color: #0d0a0b;
+}
+
+/* Primary Button Hover */
+.btn-primary:hover {
+    background-color: #0d0a0b !important;
+    color: #72B01D !important;
+}
+
+/* Outline Primary Button */
+.btn-outline-primary {
+    background-color: transparent !important;
+    border-color: #0d0a0b !important;
+    color: #0d0a0b !important;
+    border-radius: 0;
+    position: relative;
+}
+
+/* Primary Button hover animation */
+.btn-outline-primary:before {
+    content: '';
+    position: absolute;
+    background-color: #72B01D;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+/* Primary Button hover animation */
+.btn-outline-primary:hover:before {
+    width:100% ;
+}
+/* Secondary Button */
+.btn-secondary {
+    background: #0d0a0b !important;
+    border-color: #0d0a0b !important;
+    border-radius: 0;
+}
+
+/* Secondary Button Hover */
+.btn-secondary:hover {
+    color: #72B01D !important;
+}
+/* Outline Secondary Button */
+.btn-outline-secondary {
+    background-color: transparent !important;
+    border-color: #0d0a0b !important;
+    color: #0d0a0b !important;
+    border-radius: 0;
+    position: relative;
+}
+/* Outline Secondary Button hover animation */
+.btn-outline-secondary:before {
+    content: '';
+    position: absolute;
+    background-color: #72B01D;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    z-index: -1;
+    transition: 0.5s;
+}
+/* Outline Secondary Button hover animation */
+.btn-outline-secondary:hover:before {
+    width:100% ;
+}
+
+/* Navigation Bar */
+.navbar {
+    background: #ffffff;
+    border-bottom: 1px solid #eee;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #0d0a0b;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+    color:#454955;
+}
+
+.navbar-brand{
+    font-size: 1.8rem;
+}
+
+/* Call to action section */
+
+.call-to-action {
+    background: #0d0a0b;
+    color: #F3EFF5;
+}
+
+.call-to-action p {
+    font-size: 1.5rem;
+}
+
+/* color line under headings */
+.heading-line {
+    height: 3px;
+    width: 10%;
+    background: #72B01D
+}
+
+/* Services icons colors*/
+
+.services i {
+    font-size: 2rem;
+    color: #72B01D;
+}
+
+.services {
+    background-color: #f4f4f4;
+}
+
+/* Portfolio */
+
+.dark {
+    color: #72B01D;
+    background: #0d0a0b;
+    height: 300px; 
+}
+
+.dark i{
+    font-size: 1.3rem;
+    color: #72B01D;
+}
+
+.portfolio .img-fluid{
+    height: 300px;
+    object-fit: cover;
+}
+
+.portfolio col-lg{
+    position: relative;
+}
+ 
+.portfolio div {
+    padding: 0 !important;
+}
+
+/* Footer */
+
+.footer {
+    background: #0d0a0b;
+    color: #F3EFF5;
+}
+
+.footer a {
+    color: #F3EFF5;
+}
+
+.footer a:hover {
+    color: #72B01D;
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media(max-width: 900px) {
+    .navbar .nav-item   {
+        display: block;
+        width: 100%;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    div.map {
+        display: none;
+    }
+    .call-to-action .container {
+        width: 100% !important;
+    }
+}
