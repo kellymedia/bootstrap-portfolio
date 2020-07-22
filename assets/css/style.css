@@ -170,6 +170,16 @@ h4, h5, h6 {
     background-color: #f4f4f4;
 }
 
+/* Contact  */
+
+.social a {
+    color: #72B01D;
+}
+
+.social a:hover {
+    color: #000000;
+}
+
 /* Portfolio */
 
 .dark {
