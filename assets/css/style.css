@@ -196,6 +196,14 @@ h4, h5, h6 {
     padding: 0 !important;
 }
 
+.portfolio-links i {
+    color: #72B01D;
+}
+
+.portfolio-links i:hover {
+    color: #FFFFFF;
+}
+
 /* Footer */
 
 .footer {
@@ -212,13 +220,16 @@ h4, h5, h6 {
     text-decoration: underline;
 }
 
-.portfolio-links i {
-    color: #72B01D;
+.footer i {
+    color: #6c757d;
 }
 
-.portfolio-links i:hover {
-    color: #FFFFFF;
+.footer i:hover {
+    color: #72B01D;
+    text-decoration: underline;
 }
+
+
 
 /* Responsive */
 @media(max-width: 900px) {
