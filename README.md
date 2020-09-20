@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a mobile responsive portfolio website I built using the Bootstrap4 framework. I wanted to showcase some Full Stack Development and Design projects I have worked on.
+This is a mobile responsive portfolio website I built using the Bootstrap4 framework. 
 
 ## Demo
 
