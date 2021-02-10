@@ -8,9 +8,9 @@ This is a mobile responsive portfolio website I built using the Bootstrap4 frame
 
 ## Demo
 
-Click here for a [demo](https://kellymedia.github.io/responsive-portfolio/index.html) of this project.
+Click here for a [demo](https://kellymedia.github.io/bootstrap-portfolio/) of this project.
 
-https://kellymedia.github.io/responsive-portfolio/index.html
+https://kellymedia.github.io/bootstrap-portfolio/
 
 This image demonstrates the app functionality:
 
